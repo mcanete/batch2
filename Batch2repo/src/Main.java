@@ -245,7 +245,7 @@ public class Main
         }*/
 
       //random shuffling
-/*        String randomName[] = new String[2];
+        String randomName[] = new String[2];
         randomName[0] = MyMethods.takeMyFriend();
         randomName[1] = MyMethods.takeMygirls();
 
@@ -256,7 +256,7 @@ public class Main
             palibog2 = MyMethods.pal2();
         }while(palibog == palibog2);
 
-      System.out.println(randomName[palibog]+" "+MyMethods.status()+" "+randomName[palibog2]);*/
+      System.out.println(randomName[palibog]+" "+MyMethods.status()+" "+randomName[palibog2]);
 
 
     }
