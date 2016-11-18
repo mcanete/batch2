@@ -1,0 +1,41 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+$width: 5em;
+
+body{
+  width: $width;
+}
+@mixin default-box
+{
+  border: solid 1px red;
+  clear: both;
+  display: block;
+  margin: 5px 0;
+  padding: 5pc 10px;
+}
+footer, header{
+  @include default-box;
+}
+
+$defaultWindowsize: 960px;
+#nav .side{
+float: right;
+width: $defaultWindowsize/3;
+}
+nav{
+  background-color: red;
+  font-size: 12pt;
+  ul{
+    width: 50%;
+    li{
+      list-style: none;
+      a{
+        text-decoration: none;
+      }
+    }
+  }
+}
